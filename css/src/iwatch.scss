@@ -1,0 +1,29 @@
+#iwatch {
+
+  img
+     {
+      width: auto;
+      margin-left: 6em;
+      background-size: cover;
+  }
+.modify{
+  position: relative;
+  margin-top: 11em;
+}
+p{
+
+  margin-top: 23em;
+
+
+  &.modify{
+    margin-top: 9em;
+
+  }
+}
+h2{
+  position: absolute;
+  bottom:350px;
+  bottom: 4em;
+  top: 8em;
+}
+}

@@ -196,4 +196,21 @@ body {
     font-weight: 300;
     top: 325px; }
 
+#iwatch img {
+  width: auto;
+  margin-left: 6em;
+  background-size: cover; }
+#iwatch .modify {
+  position: relative;
+  margin-top: 11em; }
+#iwatch p {
+  margin-top: 23em; }
+  #iwatch p.modify {
+    margin-top: 9em; }
+#iwatch h2 {
+  position: absolute;
+  bottom: 350px;
+  bottom: 4em;
+  top: 8em; }
+
 /*# sourceMappingURL=app.css.map */
