@@ -1,0 +1,170 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#home {
+  background-image: url(../images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+  height: 800px; }
+  #home nav a {
+    color: #FFF;
+    font-weight: 600;
+    margin-right: 3em;
+    margin-top: 3em;
+    text-decoration: none; }
+    #home nav a.active {
+      font-weight: bold;
+      border-bottom: 2px solid #FFF;
+      padding: 3em 0; }
+  #home .pull-right {
+    padding-top: 3em; }
+  #home a.action {
+    position: relative;
+    background-color: #8724CD;
+    color: #FFF;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 15em;
+    font-size: larger;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 29em;
+    margin-left: 20em;
+    padding: 0.95em;
+    border-style: solid; }
+  #home h1.main {
+    position: absolute;
+    top: 7em;
+    color: #FFF;
+    font-size: 40px;
+    margin-left: 11em;
+    margin-top: -0.5em;
+    top: 9em;
+    left: -1.7em; }
+  #home h1.sub {
+    position: absolute;
+    top: 9em;
+    font-size: 40px;
+    color: #FFF;
+    top: 9.5em;
+    left: 9.7em; }
+  #home p {
+    position: absolute;
+    color: #FFF;
+    font-weight: 400;
+    margin-left: 30.5em;
+    font-size: smaller;
+    margin-top: 48em;
+    top: 0.5em;
+    right: 64em; }
+
+#overview {
+  background-color: #2E3B4E;
+  color: #FFF;
+  padding: 8em 0;
+  background-size: cover; }
+  #overview nav {
+    bottom: 3em; }
+  #overview .row-spacing {
+    margin-bottom: 1em;
+    margin-top: -4em; }
+  #overview .row-gap.h2 {
+    margin-top: -10em;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+#bang {
+  color: #FFF;
+  background-image: url(../images/pink.jpg);
+  background-repeat: no-repeat;
+  height: 475px;
+  text-align: center; }
+  #bang h2 {
+    padding-top: 3.8em;
+    padding-bottom: 0.2em; }
+  #bang p {
+    line-height: 200%; }
+  #bang .get-started {
+    background-color: #FFF;
+    color: #d54c63;
+    border-radius: 25px;
+    margin-top: 0.6em;
+    width: 15em; }
+    #bang .get-startedhover {
+      color: #d54c63; }
+
+#writing {
+  background-color: #FFF;
+  background-image: url("../images/writing.jpg");
+  color: #000;
+  background-repeat: no-repeat;
+  height: 475px; }
+  #writing h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 33em; }
+  #writing p {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 33em; }
+    #writing p.change {
+      font-size: 12px;
+      margin-left: 44em; }
+
+#valley {
+  background-image: url(../images/valley.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; }
+  #valley .container {
+    position: relative; }
+  #valley a {
+    position: absolute;
+    background-color: #8724CD;
+    color: #FFF;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 15em;
+    font-size: larger;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 435px;
+    top: 290px; }
+  #valley h2 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    bottom: -220px;
+    left: 390px; }
+  #valley p {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    top: 260px;
+    margin-left: 15em;
+    font-weight: bold;
+    right: 170px; }
+  #valley .small {
+    position: absolute;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 9em;
+    font-weight: 600;
+    margin-left: 38.4em;
+    left: -320px;
+    top: 240px; }
+
+/*# sourceMappingURL=app.css.map */

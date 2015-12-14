@@ -1,0 +1,35 @@
+#writing {
+  background-color: #FFF;
+  background-image: url('../images/writing.jpg');
+  color: #000;
+  background-repeat: no-repeat;
+  height:475px;
+
+
+h2{
+    font-size: 16px;
+    line-height: 24px;
+    font-style: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 33em;
+
+
+
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 33em;
+
+    &.change {
+            font-size: 12px;
+            margin-left: 44em;
+    }
+}
+
+}
