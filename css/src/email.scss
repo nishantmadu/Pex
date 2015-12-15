@@ -1,0 +1,38 @@
+#email {
+  position: relative;
+  background-color: #E7536B;
+  height: 350px;
+  color: #FFF;
+  border-width: thick;
+  border-color: #2E3B4E;
+
+
+h2 {
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  font-style: bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 7em;
+
+}
+
+ a {
+   position: absolute;
+   color: #FFF;
+  text-decoration: underline;
+  top: 200px;
+}
+p {
+  position: absolute;
+  margin-top: 10em;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 22px;
+
+}
+}
