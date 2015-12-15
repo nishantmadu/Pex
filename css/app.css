@@ -197,7 +197,8 @@ body {
     top: 325px; }
 
 #iwatch {
-  background-color: #FFF; }
+  background-color: #FFF;
+  overflow-x: hidden; }
   #iwatch img {
     width: auto;
     margin-left: 6em;
