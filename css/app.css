@@ -1,45 +1,46 @@
 body {
   font-family: 'Open Sans', sans-serif; }
 
-#home {
+#home .container-fluid {
+  position: relative;
   background-image: url(../images/sky.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px; }
-  #home .container nav a {
+  #home .container-fluid nav a {
     color: #FFF;
     font-weight: 600;
     margin-right: 3em;
     margin-top: 3em;
     text-decoration: none; }
-    #home .container nav a.active {
+    #home .container-fluid nav a.active {
       font-weight: bold;
       border-bottom: 2px solid #FFF;
       padding: 3em 0; }
-  #home .container .pull-right {
+  #home .container-fluid .pull-right {
     padding-top: 3em; }
-  #home .container a.action {
+  #home .container-fluid .club {
     position: absolute;
-    background-color: #8724CD;
-    color: #FFF;
-    border-radius: 25px;
-    font-weight: 600;
-    border-color: #8724CD;
-    top: 60vh;
-    left: 66vh; }
-  #home .container h1 {
-    position: relative;
-    text-align: right;
-    color: #FFF;
-    top: 45vh;
-    right: 15vh; }
-  #home .container p {
-    position: absolute;
-    color: #FFF;
-    font-weight: 800;
-    font-size: 10px;
-    top: 68vh;
-    left: 65vh; }
+    text-align: center;
+    top: 30em;
+    left: 20em; }
+    #home .container-fluid .club .action {
+      background-color: #8724CD;
+      color: #FFF;
+      border-radius: 25px;
+      font-weight: 600;
+      border-color: #8724CD;
+      width: 13em;
+      margin-left: 9em; }
+    #home .container-fluid .club h1 {
+      text-align: right;
+      color: #FFF; }
+    #home .container-fluid .club p {
+      color: #FFF;
+      font-weight: 800;
+      font-size: 10px;
+      margin-top: 1em;
+      margin-left: 18em; }
 
 #overview {
   background-color: #2E3B4E;
