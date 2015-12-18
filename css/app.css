@@ -4,73 +4,54 @@ body {
 #home {
   background-image: url(../images/sky.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 800px; }
-  #home nav a {
+  #home .container nav a {
     color: #FFF;
     font-weight: 600;
     margin-right: 3em;
     margin-top: 3em;
     text-decoration: none; }
-    #home nav a.active {
+    #home .container nav a.active {
       font-weight: bold;
       border-bottom: 2px solid #FFF;
       padding: 3em 0; }
-  #home .pull-right {
+  #home .container .pull-right {
     padding-top: 3em; }
-  #home a.action {
-    position: relative;
+  #home .container a.action {
+    position: absolute;
     background-color: #8724CD;
     color: #FFF;
     border-radius: 25px;
-    font-weight: bold;
-    width: 15em;
-    font-size: larger;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top: 29em;
-    margin-left: 20em;
-    padding: 0.95em;
-    border-style: solid; }
-  #home h1.main {
-    position: absolute;
-    top: 7em;
+    font-weight: 600;
+    border-color: #8724CD;
+    top: 69vh;
+    left: 96vh; }
+  #home .container h1 {
+    position: relative;
+    text-align: right;
     color: #FFF;
-    font-size: 40px;
-    margin-left: 11em;
-    margin-top: -0.5em;
-    top: 9em;
-    left: -1.7em; }
-  #home h1.sub {
-    position: absolute;
-    top: 9em;
-    font-size: 40px;
-    color: #FFF;
-    top: 9.5em;
-    left: 9.7em; }
-  #home p {
+    top: 45vh;
+    right: 15vh; }
+  #home .container p {
     position: absolute;
     color: #FFF;
-    font-weight: 400;
-    margin-left: 30.5em;
-    font-size: smaller;
-    margin-top: 48em;
-    top: 0.5em;
-    right: 64em; }
+    font-weight: 800;
+    font-size: 10px;
+    top: 80vh;
+    left: 95vh; }
 
 #overview {
   background-color: #2E3B4E;
   color: #FFF;
   padding: 8em 0;
   background-size: cover; }
-  #overview nav {
+  #overview .container nav {
     bottom: 3em; }
-  #overview .row-spacing {
+  #overview .container .row-spacing {
     margin-bottom: 1em;
     margin-top: -4em; }
-  #overview .row-gap.h2 {
+  #overview .container .row-gap.h2 {
     margin-top: -10em;
     font-size: 16px;
     font-family: 'Open Sans',sans-serif;
